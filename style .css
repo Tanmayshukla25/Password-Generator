@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins"
+}
+label{
+    font-size: 20px;
+}
+.box{
+    margin: auto;
+   flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 20px;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
+    background:linear-gradient(rgba(0, 0, 0, 0.258),grey,rgba(0, 0, 0, 0.381))
+}
+.fields{
+    padding-bottom: 15px;
+}
+
+.heading{
+    padding: 15px 0;
+    text-align: center;
+}
+body{
+    background-image: url("./backgroundimage1.avif");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+#Upper ,#lower ,#number,#symbol{
+    float: right;
+    margin-right: 10px;
+    
+}
+#Password{
+    width: 140px;
+    border-radius: 5px;
+}
+#Password-box{
+    width: 310px;
+    margin: 15px 0;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: white;
+   
+
+}
+.heading{
+    text-decoration: underline;
+}
+
+#btn{
+    padding: 8px 10px;
+    font-size: 15px;
+    border-radius: 10px;
+    margin-top: 20px;
+    background-color: red;
+    color: white;
+    border: unset;
+
+}
+#resetBtn{
+    padding: 8px 10px;
+    font-size: 15px;
+    border-radius: 10px;
+    margin-top: 20px;
+    background-color: black;
+    color: white;
+    border: unset;
+
+}
+

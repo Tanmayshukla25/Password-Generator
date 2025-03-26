@@ -1,0 +1,72 @@
+@media screen and (min-width:320px) and (max-width:570px){
+    #Password-box{
+        width: 250px;
+        margin: 10px 0;
+        height: 20px;
+        border: 1px solid black;
+        border-radius: 5px;
+        background-color: white;
+    }
+    .fields{
+        width: 257px;
+    }
+    label{
+        font-size: 20px;
+    }
+    .box{
+        margin: auto;
+       flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        font-size: 20px;
+     
+        border-radius: 10px;
+        box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
+        background:linear-gradient(rgba(0, 0, 0, 0.258),grey,rgba(0, 0, 0, 0.381))
+    }
+    #Password{
+        width: 80px;
+        border-radius: 5px;
+    }
+    #btn{
+        padding: 5px 10px;
+        font-size: 12px;
+        border-radius: 10px;
+        margin-top: 20px;
+        background-color: red;
+        color: white;
+        border: unset;
+    
+    }
+    .btn-box {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+       
+    }
+    
+    #resetBtn{
+        padding: 5px 10px;
+        font-size: 12px;
+        border-radius: 10px;
+        margin-top: 20px;
+        background-color: black;
+        color: white;
+        border: unset;
+    
+    }
+}
+@media screen and (min-width:375px) and (max-width:400px){
+
+.fields{
+        width: 300px;
+    }
+    #Password-box{
+        width: 290px;
+        height: 25px;
+    }
+    #Password{
+        width: 120px;
+        border-radius: 5px;
+    }
+}
