@@ -74,8 +74,10 @@
         height: 25px;
     }
     #Password{
-        width: 100px;
+        width: 52px;
         border-radius: 5px;
+        padding: 2px 4px;
+        font-size: 12px;
     }
     label{
   font-size: 18px;
@@ -83,7 +85,7 @@
     .box{
         width: 330px;
     }
-    #Upper ,#lower ,#number,#symbol{
+    #Upper ,#lower ,#number,#symbol,#Password{
         float: right;
         margin-right: 30px;
         
