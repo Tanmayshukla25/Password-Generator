@@ -58,15 +58,37 @@
 }
 @media screen and (min-width:375px) and (max-width:400px){
 
+    #resetBtn{
+        font-size: 10px;
+    }
+    #btn{
+        font-size: 10px;
+        
+    }
 .fields{
-        width: 300px;
+        width: 280px;
+        font-size: 15px;
     }
     #Password-box{
-        width: 290px;
+        width: 250px;
         height: 25px;
     }
     #Password{
-        width: 120px;
+        width: 100px;
         border-radius: 5px;
+    }
+    label{
+  font-size: 18px;
+    }
+    .box{
+        width: 330px;
+    }
+    #Upper ,#lower ,#number,#symbol{
+        float: right;
+        margin-right: 30px;
+        
+    }
+    .btn-box{
+        margin-right: 17px;
     }
 }
