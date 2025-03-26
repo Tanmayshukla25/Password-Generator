@@ -37,10 +37,22 @@ body{
   justify-content: center;
   height: 100vh;
 }
+#copybtn{
+    padding: 2px 7px;
+    background-color:gray;
+    color: white;
+    font-size: 14px;
+    margin-left: 7px;
+    border-radius: 5px;
+}
 #Upper ,#lower ,#number,#symbol,#Password{
     float: right;
     margin-right: 10px;
     
+}
+.parentbox{
+    display: flex;
+    align-items: center;
 }
 #Password{
     width: 100px;
